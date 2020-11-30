@@ -21,6 +21,7 @@ auxiliary/scanner/ssh/ssh_login    口令猜解
 同靶场文章中发现有人用Netdiscover工具  
 ![image-20201129015921550](https://github.com/hui1314/Daily-learning/blob/master/images/image-20201129015921550.png)  
 该工具有段描述说明DHCP对于该ARP探测工具有一定的影响，于是就去复习了下主机、端口扫描的原理，学习文章也放在下面了
+
 #### Tips:
 MobaXterm可以添加代理  
 Nmap -sn -PR  
@@ -50,3 +51,11 @@ git push origin HEAD --force
 - [Metasploit常用辅助模块](https://www.dazhuanlan.com/2020/01/15/5e1e807451bca/)
 - [扫描探测](https://www.freebuf.com/articles/network/105036.html)
 - [端口扫描](https://nmap.org/man/zh/man-port-scanning-techniques.html)
+
+## 2020-11-29
+### 利用Avast 杀软自带组件Avdump转储lsass.exe进程 - [原文链接](https://mp.weixin.qq.com/s/bHDMTlY-YZxx9dS-MqQfRA)
+AvDump.exe是Avast杀毒软件中自带的一个程序，可用于转储指定进程（lsass.exe）内存数据，因为它带有Avast杀软数字签名，所以不会被反病毒检测和查杀
+[AvDump复现文章](https://www.cnblogs.com/BOHB-yunying/p/14059179.html)
+## 2020-11-30
+内网渗透frp反向socks5代理
+[内网穿透工具frp](https://www.cnblogs.com/BOHB-yunying/p/12693675.html)
