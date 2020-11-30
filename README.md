@@ -57,5 +57,6 @@ git push origin HEAD --force
 AvDump.exe是Avast杀毒软件中自带的一个程序，可用于转储指定进程（lsass.exe）内存数据，因为它带有Avast杀软数字签名，所以不会被反病毒检测和查杀  
 [AvDump复现文章](https://www.cnblogs.com/BOHB-yunying/p/14059179.html)
 ## 2020-11-30
-内网渗透frp反向socks5代理  
+### 内网渗透frp反向socks5代理  
+frp可以用来内网穿透映射端口服务，也可以建立反向socks代理，方便内网渗透
 [内网穿透工具frp](https://www.cnblogs.com/BOHB-yunying/p/12693675.html)
